@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Documentation</title>
+    <script src="../scripts/home-foot.js" type="module"></script>
+    <script src="../scripts/home-head.js" type="module"></script>
+    <link rel="stylesheet" href="../css/document.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    
+    <!-- The first widget as it creates the header of my webpage -->
+    <home-head data-head="Home Page Header"></home-head>
+    
+    <main>
+        <div class="columns">
+            <div class="column">
+                <a href="./app.html">Character Finder</a>
+            </div>
+            <div class="column">
+                <a href="../home.html">Home</a>
+            </div>
+            <div class="column">
+                <a href="./community.html">Community</a>
+            </div>
+            <div class="column">
+                <a href="./doc.html">Documentation</a>
+            </div>
+
+        <!-- Idea & Why it changed 24 times-->
+        </div>
+        <h2>Idea & Why It Changed</h2>
+        <p>
+            Originally going into this project, I wanted to focus on a Pokemon API. 
+            I had a large range of plans for it such as sorting Pokemon by release date, 
+            the games you could find them in, and so much more. However, this idea quickly changed 
+            the moment my computer crashed and I lost a good person to me. This affected my mental 
+            health enough that this project became too much so I resulted back to my API from 235 
+            which was a <a href="https://people.rit.edu/mrs8402/235/RickMortyAPI/" style="text-decoration: underline;">Rick & Morty API.</a> From here, my focus was to implement fetch and attempt to 
+            create a functional favorite character page but this unfortunely created issues for me. While creating this project, I completely started fresh with my CSS 
+            design and used Bulma to create beautiful use of columns.
+
+        </p>
+
+        <!-- Code Documentation-->
+        <hr>
+        <h2>Code Documentation:</h2>
+        <p>
+            In terms of programming, here is a list of resources and how I utilized them for this project.
+        </p>
+        <dl>
+            <dt>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" style="text-decoration: underline;"> Using Fetch</a>
+            </dt>
+
+            <dd>- I used Mozilla to help me properly utilize a fetch function that is called and activated in order to pull
+                all the data that is needed. Coming into this assignment, I was struggling with fetch but this resource helped me understand
+                it to a better extent.
+            </dd>
+
+            <dt>
+                <a href="" style="text-decoration: underline;"> Firebase Dog Example </a> & <a href="https://people.rit.edu/mrs8402/330/homework/firebase/firebase-admin.html" style="text-decoration: underline;"> Firebase Admin </a>
+            </dt>
+
+            <dd>- When trying to add favorites to the community page, I relied on the example done in class using dogs and then the fire-base admin homework assignment to add a button that allows the user to say the term they searched was a favorite
+                and that "liking of the term" updates my firebase to log another like on the community page! I struggled getting the button to log a specific character so unless you write the exact name in the searchbox, your term in the search will be submitted to the community page.
+            </dd>
+
+
+            <dt>
+                <a href="https://howtocreateapps.com/fetch-and-display-json-html-javascript/" style="text-decoration: underline;"> Fetch and outputting data </a>
+            </dt>
+
+            <dd>
+                -I referanced the code they gave when trying to output api information onto the phyiscal page rather than the console.
+            </dd>
+
+            <dt>
+                <a href="https://bulma.io/documentation/overview/start/" style="text-decoration: underline;"> Bulma</a>
+            </dt>
+
+            <dd>- I used Bulma's documentation and start guide to import it into my css file and help create a clean layout. For example, my use of columns
+                where all my links are.
+            </dd>
+
+            <dt> <a href="https://people.rit.edu/mrs8402/235/RickMortyAPI/" style="text-decoration: underline;">Rick & Morty API</a></dt>
+            <dd>- Lastly, I used the code from my previous API that I created for an old project and found a use to repurpose it in 
+                order to make life easier and help my mental state.
+            </dd>
+          </dl>
+
+          <!-- Image Documentation-->
+        <hr>
+        <h2>Image Documentation With Their Sources & Font Documentation</h2>
+        <dl>
+            <dt> 
+            Character Finder Page 
+            </dt>
+
+            <dd>
+                <a href="https://toppng.com/image-1-source-rick-and-morty-PNG-free-PNG-Images_186270" style="text-decoration: underline;"> - Rick and Morty Coming Out of Portal</a>
+            </dd>
+
+            <dd>
+                <a href="https://www.vhv.rs/viewpic/JbbmRo_rick-and-morty-png-transparent-png/" style="text-decoration: underline;"> - Rick Throwing Morty</a>
+            </dd>
+            
+            <dt>
+            Home
+            </dt>
+
+            <dd>
+                <a href="https://www.vhv.rs/viewpic/biJxJ_rick-morty-poster-hd-png-download/" style="text-decoration: underline;"> - Poster from Show</a>   
+            </dd>
+
+            <dt>
+                Favicon - Located On Every Page
+            </dt>
+
+            <dd>
+                <a href="https://pngimg.com/image/101098" style="text-decoration: underline;"> - Eyes Open Favicon</a>
+            </dd>
+            <dd>
+                <a href="https://favicon.io/favicon-converter/" style="text-decoration: underline;"> - Site Used To Make Favicon</a>
+            </dd>
+
+            <dt>
+                Font Documentation
+            </dt>
+            <dd>
+                <a href="https://fonts.google.com/specimen/Raleway" style="text-decoration: underline;"> - Raleway Font</a> 
+            </dd>
+            
+            
+        </dl>
+    </main>
+        <footer>
+            <!-- The third widget as it creates the footer of my webpage -->
+        <home-foot data-foot="&copy; Rick & Morty API - Fetch - 2021"></home-foot>
+        </footer>
+        
+</body>
+
+
+</html>

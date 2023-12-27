@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Character Finder: Rick & Morty Addition</title>
+    <script src="../scripts/main.js" type="module"></script>
+    <link rel="stylesheet" href="../css/appcss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <!-- The first widget as it creates the header of my webpage -->
+    <home-head data-head="Home Page Header"></home-head>
+
+    <div class="columns">
+        <div class="column">
+            <a href="./app.html">Character Finder</a>
+        </div>
+        <div class="column">
+            <a href="../home.html">Home</a>
+        </div>
+        <div class="column">
+            <a href="./community.html">Community</a>
+        </div>
+        <div class="column">
+            <a href="./doc.html">Documentation</a>
+        </div>
+    </div>
+           
+    
+    <div class="rowOne">
+        <div>
+            <img src="../images/portal.png" alt="Rick and Morty coming out of a portal" width="300" height="300">
+        </div>
+
+        <div>
+            <h1>
+                Character Finder: Rick & Morty Addition 
+            </h1>
+        
+         
+            <h3>
+                Character Name 
+            </h3>
+        
+            <input id="searchterm" type="text" size="30" maxlength="50" autofocus value="Summer" />
+        
+            <h3>
+                Character's Gender 
+            </h3>
+               
+            <!-- search by gender -->
+        
+            <select id="genderId">         
+                <option value=""></option>        
+                <option value = "male">male</option>        
+                <option value = "female">female</option>         
+                <option value = "genderless">genderless</option>        
+                <option value = "unknown">unknown</option>
+            </select>
+        
+            <!-- search by species: human, alien, poopybutthole, etc. -->
+            <h3>
+                Character's Species
+            </h3>
+        
+            <select id="speciesId">  <!-- This is my "widget ID"-->        
+                <option value=""></option>         
+                <option value="Human">human</option>           
+                <option value="Alien">alien</option>           
+                <option value="Humanoid">humanoid</option>           
+                <option value="Planet">planet</option>           
+                <option value="Disease">disease</option>          
+                <option value="Cronenberg">cronenberg</option>         
+                <option value="Robot">robot</option>         
+                <option value="Unknown">unknown</option>          
+                <option value="Animal">animal</option>
+                <option value="Mythological">mythological</option>
+                <option value="Poopybutthole">poopybutthole</option>   
+            </select> 
+        
+            <!-- search by status: alive, dead, unknown, empty -->
+            <h3>
+                Character's Status
+            </h3>
+            
+            <select id="statusId">
+                <option value=""></option>
+                <option value="Alive">living</option>
+                <option value="Dead">decreased</option>
+                <option value="Unknown">unknown</option>
+            </select>     
+        </div>
+
+        <div>
+            <img src="../images/throwingMorty.png" alt="Rick throwing Morty out of a portal" width="300" height="300">
+        </div>
+    </div>
+
+     <!-- search button -->
+     <button type="button" id="search">Search!</button>   
+     
+    
+    <div id="updates"> <!-- this will update as you begin your search -->
+        <h4>
+            Begin your adventure into the Rick & Morty Universe!
+            <br>
+            You can filter by search term, using a filter, or even both together.
+        </h4>
+    </div>
+
+    <h6>
+        Results Will Appear Beneath Here
+    </h6>
+    <hr>
+
+    <div id="resultsLike"">
+         If you like your returned results, <br>
+         click the like button to the community page! 
+        <br>
+        <button type="button" id="resLike"> Like Results </button> 
+        
+    </div>
+    <div id="characterInformation"> <!--all char results will appear under here -->
+    </div>
+    <footer>
+        <!-- The third widget as it creates the footer of my webpage -->
+    <home-foot data-foot="&copy; Rick & Morty API - Fetch - 2021"></home-foot>
+    </footer>
+    
+</body>
+</html>

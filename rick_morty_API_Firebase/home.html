@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Home</title>
+    <link rel="stylesheet" href="./css/homecss.css">
+    <script src="./scripts/home-foot.js" type="module"></script>
+    <script src="./scripts/home-head.js" type="module"></script>
+    <script src="./scripts/home-bout-app.js" type="module"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <!-- The first widget as it creates the header of my webpage -->
+    <home-head data-head="Home Page Header"></home-head>
+
+    <div class="columns">
+        <div class="column">
+            <a href="./pages/app.html">Character Finder</a>
+        </div>
+        <div class="column">
+            <a href="home.html">Home</a>
+        </div>
+        <div class="column">
+            <a href="./pages/community.html">Community</a>
+        </div>
+        <div class="column">
+            <a href="./pages/doc.html">Documentation</a>
+        </div>
+    </div>
+
+    <div class="homePG">
+        <div> 
+            <a href="./pages/app.html"> <img src="./images/introscene.png" alt="Rick and Morty Case" width="400" height="400"></a>
+        </div>
+        <div>
+            <!-- The second widget that links the title of the app to the actual character finder  -->
+            <home-bout-app data-title="Rick & Morty Character Finder"></home-bout-app>
+        </div>
+    </div>
+
+        <footer>
+            <!-- The third widget as it creates the footer of my webpage -->
+        <home-foot data-foot="&copy; Rick & Morty API - Fetch - 2021"></home-foot>
+        </footer>
+</body>
+</html>

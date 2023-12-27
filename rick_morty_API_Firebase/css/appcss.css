@@ -1,0 +1,107 @@
+/* bulma */
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+/* custom font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+.columns {
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(81, 168, 125);
+    color:black;
+    justify-content: center;
+}
+
+
+#characterInformation {
+  justify-content: center;
+}
+
+#resultsLike {
+  font-weight:500px;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  font-size:medium;
+}
+
+#resLike {
+  font-size: small;
+}
+
+img {
+  padding: 30px;
+}
+
+
+.rowOne {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  color:black;
+  align-items: center;
+  justify-content: center;
+}
+
+.rowOne > div {
+  flex-direction: row;
+  text-align: center;
+}
+
+.infos {
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(12, 8, 66);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(8, 37, 21);
+    text-decoration: underline;
+}
+
+div {
+  color: black;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+  padding-top:30px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+h5 {
+  font-weight: bolder;
+  font-size:large;
+  margin-left: 30px;
+}
+
+p {
+  font-size:large;
+  padding-left: 5px;
+}

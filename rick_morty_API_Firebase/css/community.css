@@ -1,0 +1,57 @@
+/* bulma */
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+/* custom font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+.columns {
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(81, 168, 125);
+    color:black;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(12, 8, 66);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(12, 6, 6);
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+
+#commList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:row;
+    margin: auto;
+}
+
+li {
+  padding: 10px;
+  padding-right: 40px;
+  font-size: 20px;
+}
