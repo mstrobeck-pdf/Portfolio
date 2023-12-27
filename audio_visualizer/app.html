@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Audio Visualizer</title>
+	<link href="./styles/stylesheet.css" type="text/css" rel="stylesheet" />
+	<script src="./scr/loader.js" type="module"></script>
+</head>
+<body>
+	<home-head data-head="Home Page Header"></home-head>
+
+	<div class="columns">
+        <div class="column">
+            <a href="app.html">Chaotic Muse App</a>
+        </div>
+        <div class="column">
+            <a href="./pages/home.html">Home</a>
+        </div>
+        <div class="column">
+            <a href="./pages/doc.html">Documentation</a>
+        </div>
+    </div>
+
+	<div class="alignment">
+		<div>
+			<canvas width="700" height="400"></canvas>
+		</div>
+
+		<div>
+			<!-- The second widget that links the title of the app to the actual character finder  -->
+			<home-bout-app data-title="Chaotic Muse"></home-bout-app>
+
+			<div id="controls">
+				<!-- Audio -->
+				<section>
+					<button id="playButton" data-playing="no"></button>
+
+				<label>Track: 
+						<select id="trackSelect">
+							<option value="media/New Adventure Theme.mp3"> New Adventure Theme</option>
+							<option value="media/Peanuts Theme.mp3">Peanuts Theme</option>
+							<option value="media/The Picard Song.mp3">The Picard Song</option>
+						</select>
+				</label>
+				</section>
+				
+				<!-- Volume -->
+				<section>
+					Volume: <input type="range" id="volumeSlider" min="0" max="2" value="1" step="0.01">
+					<span id="volumeLabel">???</span>
+				</section>
+			</div>
+		</div>
+	</div>
+
+
+<div class="custom">
+	<div>
+		Customization Tools
+		<section>
+				<!-- User Customization-->
+			<br>
+				<label for="colorPick">Change Background Color</label>
+				<input type="color" id="colorpicker" value="#FFFFFF">
+			<br>
+				<span><input type="checkbox" id="barsCB"><label for="barsCB"> Sound Bars</label></span>
+		</section>
+	</div>
+
+	<div>
+		Winter Customization Tools
+		<section>
+			<br>
+				<span><input type="checkbox" id="winter"><label for="winter"> Winter Wonderland Scene</label></span>
+			<br>	
+				<span><input type="checkbox" id="snowFlakes"><label for="snowFlakes"> Snow Flakes</label></span>
+			<br>
+				<span><input type="checkbox" id="detailSnow"><label for="detailSnow"> Detail Snow Flakes</label></span>
+			<br>	
+				<span><input type="checkbox" id="orn"><label for="orn"> Ornaments for Trees</label></span>
+		</section>
+	</div>
+
+	<div>
+		Summer Customization Tools
+		<section>
+			<br>
+				<span><input type="checkbox" id="summer"><label for="summer"> Beachy Summer</label></span>
+			<br>	
+				<span><input type="checkbox" id="fireflies"><label for="fireflies"> Fireflies</label></span>
+			<br>	
+				<span><input type="checkbox" id="flamesFire"><label for="flamesFire"> Light Camp Fire</label></span>
+		</section>
+		</div>
+		<div>
+		Fall & Spring Customization Tools
+		<section>
+			<br>
+				<span><input type="checkbox" id="sceneFall"><label for="sceneFall"> Average Day</label></span>
+			<br>		
+				<span><input type="checkbox" id="rain"><label for="rain"> Rain Falling</label></span>
+				<span><input type="checkbox" id="ins"><label for="ins"> Insects</label></span>
+				<span><input type="checkbox" id="flowers"><label for="flowers"> Flowers</label></span>
+			<br>
+				<span><input type="checkbox" id="leaves"><label for="leaves"> Leaves Falling</label></span>
+				<span><input type="checkbox" id="pump"><label for="pump"> Pumpkins</label></span>
+			<br>
+			<span><input type="checkbox" id="apples"><label for="apples"> Apples</label></span>
+			<span><input type="checkbox" id="stars"><label for="stars"> Stars</label></span>
+			</section>
+	</div>	
+</div>
+<hr>
+<footer>
+	<!-- The third widget as it creates the footer of my webpage -->
+	<home-foot data-foot="&copy; Project 3"></home-foot>
+</footer>
+</body>
+</html>

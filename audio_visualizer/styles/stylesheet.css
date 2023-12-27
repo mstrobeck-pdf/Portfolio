@@ -1,0 +1,152 @@
+/* bulma */
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+/* custom font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+.homeAlignment {
+  display: flex;
+  flex: column;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.homeAlignment > div {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10%;
+  padding-left: 20px;
+}
+
+p {
+  padding-left: 40px;
+}
+
+h1 {
+  font-size: xx-large;
+  margin: auto;
+}
+
+h3 {
+  font-size: large;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+dt {
+  font-weight: bolder;
+  font-size: large;
+  padding-top: 20px;
+}
+
+dd {
+  padding-left: 40px;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+/* Bulma code can be located in home.html */
+figure {
+  width: 600px;
+  margin: auto;
+  justify-self: center;
+}
+
+body {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+}
+
+.columns {
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  background-image: linear-gradient(to right, lightskyblue, slateblue, darkblue);
+}
+
+canvas{
+  border:1px solid gray;
+  justify-content: center;
+  margin:auto;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+body {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+
+#controls{
+  margin-left: 1rem;
+}
+
+#volumeLabel{
+  margin-left: 1rem;
+}
+
+section{
+  margin-bottom: 1rem;
+}
+
+#playButton{
+  margin-left: 2px;
+  font-size: 1.2rem;
+  width: 6rem;
+}
+
+button[data-playing="yes"]:after{
+  content: "Pause";
+}
+
+button[data-playing="no"]:after{
+  content: "Play";
+}
+
+.alignment {
+  display: flex;
+  text-align: center;
+}
+
+.alignment > div {
+  flex-direction: row;
+}
+
+.custom {
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 2px;
+}
+
+.custom > div {
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
