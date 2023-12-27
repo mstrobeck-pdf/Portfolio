@@ -1,0 +1,14 @@
+{
+  "name": "@kenziexria/project-one",
+  "main": "e3a0f03ea4cfa8d5@62.js",
+  "version": "62.0.0",
+  "homepage": "https://observablehq.com/@kenziexria/project-one",
+  "author": {
+    "name": "MacKenzie Strobeck",
+    "url": "https://observablehq.com/@kenziexria"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
